@@ -5,7 +5,7 @@ import { ClerkProvider } from '@clerk/nextjs';
 import { ThemeProvider } from "@/components/provideres/ThemeProvider";
 import { Toaster } from "@/components/ui/toaster";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
 export const metadata: Metadata = {
   title: "Formify",
